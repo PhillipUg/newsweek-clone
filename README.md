@@ -1,4 +1,4 @@
-# newsweek-clone
+# The Newsweek Page (Using Bootstrap)
 This project centers on using bootstrap to build a replica of [Newsweek.com](https://www.newsweek.com/).
 
 <br>
