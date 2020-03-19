@@ -3,7 +3,7 @@ This project centers on using bootstrap to build a replica of the news site [New
 
 <br>
 <br>
-<img src="images/screenshot.jpg" width="700"> 
+<img src="assets/screenshot.jpg" width="700"> 
 <br>
 
 In this project, my aim was to make a clone of the [Newsweek](https://newsweek.com/) website.
