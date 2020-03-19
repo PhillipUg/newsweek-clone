@@ -1,0 +1,24 @@
+{
+  "name": "newsweek-clone",
+  "version": "1.0.0",
+  "description": "This project centers on using bootstrap to build a replica of the news site [Newsweek.com](https://www.newsweek.com/).",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhillipUg/newsweek-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhillipUg/newsweek-clone/issues"
+  },
+  "homepage": "https://github.com/PhillipUg/newsweek-clone#readme",
+  "dependencies": {
+    "stylelint": "^13.2.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
