@@ -1,5 +1,5 @@
 # newsweek-clone
-This project centers on using bootstrap to build a replica of the news site [Newsweek.com](https://www.newsweek.com/).
+This project centers on using bootstrap to build a replica of [Newsweek.com](https://www.newsweek.com/).
 
 <br>
 <br>
@@ -8,7 +8,7 @@ This project centers on using bootstrap to build a replica of the news site [New
 
 In this project, my aim was to make a clone of the [Newsweek](https://newsweek.com/) website.
 
-There are some elements on this page which are produced with Javascript but our objective in this project wasn't to give this page functionality.
+There are some elements on this page which are produced with Javascript but my objective in this project wasn't to give this page functionality.
 
 ## Built with
   * [Bootstrap 4](https://getbootstrap.com/)
