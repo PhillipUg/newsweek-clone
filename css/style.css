@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -14,8 +14,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   background-color: #f72210;
   width: 97%;
 }
@@ -131,10 +131,15 @@ body {
   color: lightgrey;
 }
 
+section > h2 {
+  display: none;
+}
+
 @media (max-width: 576px) {
   .my-header {
     display: none;
   }
+
   .head-nav {
     display: none;
   }
@@ -144,6 +149,7 @@ body {
   .my-header {
     display: none;
   }
+
   .head-nav {
     display: none;
   }
@@ -153,8 +159,8 @@ body {
   .my-header {
     display: none;
   }
+
   .head-nav {
     display: none;
   }
 }
-/*# sourceMappingURL=style.css.map */
