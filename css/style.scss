@@ -1,34 +1,5 @@
-// $border: 1px solid black;
+//my font variables
 
-// .main {
-//   display: grid;
-//   grid-template-columns: 1fr 1fr 1fr;
-//   border: $border;
-//   section {
-//     min-height: 100px;
-//     border: $border;
-//   }
-// }
-
-// // footer styles
-// .footer {
-//   height: 200px;
-//   .top-footer {
-//     border-bottom: 1px solid #888;
-//   }
-//   .bottom-footer {
-//     ul {
-//       display: flex;
-//       text-decoration: none;
-//       list-style: none;
-//       padding: 0;
-//     }
-//     li {
-//       display: inline-block;
-//         width: 150px;
-//       }
-//   }
-// }
 * {
   padding: 0;
   margin: 0;
@@ -37,6 +8,7 @@
 
 body {
   background-color: #f4f5f6;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .my-header {
@@ -44,10 +16,17 @@ body {
   justify-content: space-between;
   background-color: #f72210;
   width: 97%;
+  z-index: 3;
+}
+
+.header1 {
+  position: fixed;
+  z-index: 10;
 }
 
 .my-header2 {
-  display: none;
+  background-color: #f72210;
+  // z-index: 3;
 }
 
 .head-nav {
@@ -55,6 +34,12 @@ body {
   margin: 0 auto;
   background-color: #fff;
   display: flex;
+  flex-shrink: 5;
+
+  span {
+    display: flex;
+    flex-shrink: 5;
+  }
 }
 
 .nav-subscribe {
@@ -64,6 +49,7 @@ body {
 .nav-ul {
   li {
     padding: 20px 0 20px 15px;
+    font-size: 19px;
 
     &::after {
       content: " | ";
@@ -78,6 +64,7 @@ body {
   margin: 0 auto;
   padding: 10px 30px;
   background-color: #fff;
+  z-index: -2;
 }
 
 .debate-1 {
@@ -139,7 +126,6 @@ body {
 
 .btm-ul {
   color: grey;
-  font-size: 14px;
 
   li {
     padding: 10px 0 0 15px;
@@ -161,9 +147,74 @@ section > h2 {
   display: none;
 }
 
+// font-family: 'Roboto Condensed', sans-serif;
+// font-family: 'Lora', serif;
+
+.para-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.lora-title {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.default-text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-17 {
+  font-size: 17px;
+}
+
+.font-19 {
+  font-size: 19px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
 @media (max-width: 576px) {
   .my-header {
     display: none;
+  }
+
+  .header1 {
+    position: fixed;
+    z-index: 10;
+  }
+
+  .header2 {
+    font-size: 12px;
+    z-index: 2;
+  }
+
+  .wrapper {
+    z-index: -1;
   }
 
   .head-nav {
@@ -176,6 +227,15 @@ section > h2 {
     display: none;
   }
 
+  .header1 {
+    position: fixed;
+    z-index: 10;
+  }
+
+  .wrapper {
+    z-index: -1;
+  }
+
   .head-nav {
     display: none;
   }
@@ -186,7 +246,28 @@ section > h2 {
     display: none;
   }
 
+  .header1 {
+    position: fixed;
+    z-index: 10;
+  }
+
+  .wrapper {
+    z-index: -1;
+  }
+
   .head-nav {
     display: none;
+  }
+}
+
+@media (max-width: 1180px) {
+  .nav-ul {
+    li {
+      padding: 17px 0 10px 20px;
+
+      &::after {
+        display: none;
+      }
+    }
   }
 }
