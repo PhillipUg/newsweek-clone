@@ -34,7 +34,7 @@ Build your own page in a .html text file and open it in your browser to check it
   :bust_in_silhouette: **Author**
  * Github: https://github.com/PhillipUg
  * Twitter: https://twitter.com/Phillip_Ug
- * LinkedIn: https://www.linkedin.com/in/phillip-musiime-74657019a/
+ * LinkedIn: https://www.linkedin.com/in/phillip-musiime
 
 
 ## Contributing
