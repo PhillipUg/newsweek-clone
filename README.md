@@ -18,17 +18,6 @@ There are some elements on this page which are produced with Javascript but my o
 ## Live demo
 [Live Demo Link](https://raw.githack.com/PhillipUg/newsweek-clone/newsweek-page/index.html)
 
-## Getting started
-
-**For this project, you’ll try your best to recreate the Newsweek website. The main aim is to ensure the elements get placed and styled roughly the same way as the real page, so functionality is not a priority.**
-
-Use the browser’s developer tools to inspect the real page and understand how elements are placed and styled. 
-Build your own page in a .html text file and open it in your browser to check it out.
-  - First setup a github repository for your project.
-  - Then create a .html file where all your HTML markup will go
-  - Use the bootstrap CDN or download it locally to you machine 
-  - Then open the newsweek page, inspect its features with your browser's developer tools and start creating  :shipit:
-
 ## Author
 
   :bust_in_silhouette: **Author**
